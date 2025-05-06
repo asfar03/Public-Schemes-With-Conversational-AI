@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.blue-text{
+    color:rgb(45, 48, 121);
+}
+.blue-background{
+    background-color: rgb(45, 48, 121);
+}
+.banner{
+    height: 50%;
+    /* border: 1px solid; */
+
+}
+.fixed-top {
+    position: fixed !important;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+body {
+    padding-top: 60px; /* Adjust this value based on the height of your fixed header */
+  }
+table td{
+    border-right: 0.5px solid rgba(255, 255, 255, 0.386);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.navbar-nav .nav-link {
+    color: rgb(45, 48, 121) !important;
+    font-weight: 600;
+  }
+
+.back a{
+    text-decoration: none !important;
+    color: white !important;
+    padding: 20px;
+}
+
+.ask a{
+    text-decoration: none !important;
+    
+}
+.underlinehead {
+    /* color: rgb(45, 48, 121) !important; */
+    /* font-weight: 600; */
+    text-align: start;
+    position: relative;
+}
+
+.underlinehead::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: -2px; /* Adjust spacing below */
+    width: 25%; /* Length of the underline */
+    border-bottom: 5px solid rgb(255, 153, 52); /* Color of the underline */
+}
+.bgcard{
+    background:rgb(232, 243, 255);
+}
+
+.txtcolor{
+    color: rgb(49, 62, 75);
+    font-weight: 500;
+    font-size: large;
+    line-height: 25px;
+}
+
+.txtcolor-light {
+    color: rgb(76, 91, 105);
+    font-weight: 500;
+    font-size:medium;
+    line-height: 25px;
+}
+
+.accordion :focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid rgb(45, 48, 121);
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 19px;
+    cursor: pointer;
+    color: rgb(45, 48, 121);
+    z-index: 1;
+  }
+  
+  .button:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(70, 70, 70, 0.146);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: rgb(255, 153, 52);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button:hover {
+    color: #ffffff;
+    border: 1px solid rgb(255, 153, 52);
+  }
+  
+  .button:hover:before {
+    top: -35%;
+    background-color: rgb(255, 153, 52);
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button:hover:after {
+    top: -45%;
+    background-color: rgb(255, 153, 52);
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+
+    
+/* footer */
+/* Footer styling */
+.footer {
+    background-color: rgb(45, 48, 121);
+    color: rgb(182, 183, 205);
+    padding: 60px 0; /* Adjust as needed */
+}
+
+.footer-about p {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.footer-about .social-links a {
+    color: rgb(182, 183, 205);
+    margin-right: 15px; /* Adjust as needed */
+}
+
+.footer-links ul {
+    list-style: none;
+    padding-left: 0; /* Remove default padding */
+}
+
+.footer-links ul li {
+    margin-bottom: 10px; /* Adjust as needed */
+    text-decoration: none;
+}
+.footer-links ul li a{
+    color: rgb(182, 183, 205);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: rgb(255, 153, 52) !important;
+}
+
+.social-links a:hover {
+    color: rgb(255, 153, 52) !important;
+}
+
+.footer-contact p {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+/* Copyright text styling */
+.footer .copyright {
+    background-color: rgb(45, 48, 121);
+    color: rgb(182, 183, 205);
+    padding: 20px 0; /* Adjust as needed */
+}
+
+.footer .copyright span {
+    color: #fff; /* Adjust as needed */
+}

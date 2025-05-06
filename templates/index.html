@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <section>
+    <div class="container-fluid py-1 ">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-md-5 fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img src="../static/images/scheme-cee-logo.png" alt="logo" class="img-fluid" style="height: 2.5rem;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Schemes
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/agriculture">Agricultural schemes</a></li>
+                    <li><a class="dropdown-item" href="/Education">Educational schemes</a></li>
+                    <li><a class="dropdown-item" href="/SocialWelfare">Social welfare schemes</a></li>
+                    <li><a class="dropdown-item" href="/Entrepreneur">Entrepreneur Schemes</a></li>
+                    <li><a class="dropdown-item" href="/Health">Health Schemes</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/Ask Assistant">Assistant</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">FAQs</a>
+                </li>
+                
+                
+              </ul>
+              <div>
+                  <button class="btn btn-outline-primary blue-text" type="button">Login</button>
+              </div>
+            </div>
+          </div>
+      </nav>
+    </div>
+  </section>
+  
+  <section>
+    <div class="container-fluid blue-background banner border-2 py-4 " >
+      <div class="row text-white py-3 back">
+        <a href="/"><p><span class="p-1"><i class="bi bi-arrow-left"></i></span>back</p></a>
+      </div>
+      
+    </div>
+  </section>
+<section>
+    <div class="row mx-auto">
+      <div class="col-md-5 mx-auto m-5">
+        <div class="chat-container ">
+          <div class="chat-box container " id="chat-box"></div>
+          <div class="row ">
+            <div class="col-md-10 my-auto ">
+              <input type="text" class="" id="user-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+
+            </div>
+          <div class="col-md-2 m-0">
+          <div class="button d-flex align-items-center justify-content-center" onclick="sendMessage()">
+              <span><i class="bi bi-send"></i></span>Send
+          </div>
+        </div>
+          
+      </div>
+          
+    </div>
+</section>
+    <footer id="footer" class="footer">
+
+        <div class=" footer-top">
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-4 col-md-12 footer-about text-center">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <span><img src="../static/images/scheme-cee-high-resolution-logo-transparent.png" alt="logo" class="img-fluid w-75 my-5"></span>
+              </a>
+              <p>Explore government schemes effortlessly through our intuitive website interface. Quickly find schemes relevant to your needs with our user-friendly search and filter options.</p>
+              <div class="social-links d-flex mt-4 justify-content-center">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-12 footer-links my-5 text-center">
+              <h4>Links</h4>
+              <ul >
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Schemes</a></li>
+                <li><a href="/Assistant">Assistant</a></li>
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-4 col-md-12 footer-contact text-center text-md-start my-5 ">
+              <div class="row mb-2">
+                <h4>Contact Us</h4>
+                <p class="mt-4"><strong>Phone:</strong> <span>+91-7969076111</span></p>
+                <p><strong>Email:</strong> <span>Customer.support@schemecee.in</span></p>
+              </div>
+              <div class="row">
+                <h4>Maintained By</h4>
+                <p>Digital India Corporation(DIC)
+                  Ministry of Electronics & IT (MeitY)
+                  Government of India®</p>
+                
+              </div>
+              
+            </div>
+    
+          </div>
+        </div>
+        <hr>
+        <div class="container copyright text-center mt-4">
+          <p>&copy; <span>Copyright</span> <strong class="px-1">Schemecee</strong> <span> 2022 - 2024. All Rights Reserved.</span></p>
+          
+        </div>
+    
+      </footer>
+
+
+
+
+
+    <script>
+
+        //send message to the server
+        function sendMessage() {
+            var userInput = document.getElementById('user-input').value;
+            var chatBox = document.getElementById('chat-box');
+            
+            if(userInput === '') return; // Check if user input is empty
+
+            var userMessage = '<div class="user-message">' + userInput + '</div>';
+            chatBox.innerHTML += userMessage;
+    
+            // Scroll chat box to the bottom
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            fetch('/get_response', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: 'user_input=' + userInput,
+            })
+            .then(response => response.json())
+            .then(data => {
+                var botMessage = '<div class="bot-message">' + data.bot_response + '</div>';
+                chatBox.innerHTML += botMessage;
+                
+                // Scroll chat box to the bottom
+                chatBox.scrollTop = chatBox.scrollHeight;
+                
+                // Clear user input after message is sent
+                document.getElementById('user-input').value = '';
+            });
+        }
+        
+        // Clear the chat
+        function clearChat() {
+            var chatBox = document.getElementById('chat-box');
+            chatBox.innerHTML = ''; // Clear chat box
+        }
+    
+        // Press the Enter key to send the message
+        function handleKeyPress(event) {
+            if (event.keyCode === 13) { // Check if Enter key is pressed
+                event.preventDefault(); // Prevent default behavior of Enter key
+                sendMessage(); // Call sendMessage function
+            }
+            else if (event.keyCode === 38) { // Check if Up arrow key is pressed
+                var userInputField = document.getElementById('user-input');
+                if (userInputField.value.trim() === '') {
+                    userInputField.value = previousUserInput; // Set the previous message in the input box
+                }
+            } 
+        }
+    </script>
+    
+</body>
+</html>
