@@ -1,0 +1,639 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "options",
+      "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+      "responses": ["I can guide you through the various schemes available in Tamil nadu. Just ask me!"]
+    },
+    {
+      "tag": "public sector /farmer training scheme/6813",
+      "patterns":["scheme no 6813", "farmer training related scheme","state associate farmer training related scheme"],
+      "responses":["Title / Name : Farmers Training,  Associated Scheme : 6813,  sponsored By : State,  Funding Pattern : Rs.5000/-,  How To Avail : The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level"]		
+    },
+    {
+      "tag": "public sector /farmer training scheme/fund amount",
+      "patterns":["scheme no 6813 fund amount","farmer training related scheme fund amount","state associate farmer training  related scheme fund amount","farmer training scheme related benfit amount"],
+      "responses":["Farmer Training fund amount is Rs.5000/-","State governemnt will provide Rs.5000/- for the farmer training scheme","The fund amount for the farmer training scheme is Rs.5000/-"] 
+    },
+    {
+      "tag": "public sector /farmer training scheme/application process",
+      "patterns":["How to apply for the farmer training scheme","farmer training scheme application process","farmer training scheme application form","scheme no 6813 application process","where to apply the farmer training scheme","where to apply the scheme no 6813","farmer training applying process","were to apply the farmer training scheme","how to apply the scheme no 6813"],
+      "responses":["Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level"]
+    },
+    {
+      "tag":"public sector /certified seed of maize/6816",
+      "patterns":["scheme no 6816","certified seed of maize related scheme","state associate certified seed of maize related scheme","certified seed of maize related scheme","certified seed of maize","certified seed of maize"],
+      "responses":["Title / Name : Distribution of Certified Seeds of maize,  Associated Scheme : 6816,  Sponsored By : State,  Funding Pattern : 50% of the cost of the seed subject to a maximum of Rs.1200/-per Quintal whichever is less,  How To Avail : The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level,  Description : All maize growing farmers are eligible to avail of the subsidy under this scheme in the Districts of Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi. Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups,  Description : 50 farmers / Agricultural labourers will be trained in a cluster with the financial assistance of Rs.5000/- per training."]
+    },
+    {
+      "tag":"public sector /certified seed of maize/fund amount",
+      "patterns":["scheme no 6816 fund amount","certified seed of maize related scheme fund amount","state associate certified seed of maize related scheme fund amount","certified seed of maize scheme related benfit amount"],
+      "responses":["Certified seed of maize fund amount is 50% of the cost of the seed subject to a maximum of Rs.1200/-per Quintal whichever is less","State governemnt will provide 50% of the cost of the seed subject to a maximum of Rs.1200/-per Quintal whichever is less for the certified seed of maize scheme","The fund amount for the certified seed of maize scheme is 50% of the cost of the seed subject to a maximum of Rs.1200/-per Quintal whichever is less"]
+    },
+    {
+      "tag":"public sector /certified seed of maize/application process",
+      "patterns":["How to apply for the certified seed of maize scheme","certified seed of maize scheme application process","certified seed of maize scheme application form","scheme no 6816 application process","where to apply the certified seed of maize scheme","where to apply the scheme no 6816","certified seed of maize applying process","were to apply the certified seed of maize scheme","how to apply the scheme no 6816"],
+      "responses":["Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level"]
+    },
+    {
+      "tag":"public sector /manually operated Plant Protection Equipment/6817",
+      "patterns":["scheme no 6817","manually operated Plant Protection Equipment related scheme","state associate manually operated Plant Protection Equipment","manually operated Plant Protection Equipment related scheme","manually operated Plant Protection Equipment"],
+      "responses":["Title / Name : Distribution of manually operated Plant Protection Equipment,  Associated Scheme : 6817,  Sponsored By : State,  Funding Pattern : A subsidy of 50% on the cost of equipment or Rs. 800/- whichever is less,  How To Avail : The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level,  Description : All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%"]
+    },
+    {
+      "tag":"public sector /manually operated Plant Protection Equipment/fund amount",
+      "patterns":["scheme no 6817 fund amount","manually operated Plant Protection Equipment related scheme fund amount","state associate manually operated Plant Protection Equipment related scheme fund amount","manually operated Plant Protection Equipment scheme related benfit amount"],
+      "responses":["Manually operated Plant Protection Equipment fund amount is A subsidy of 50% on the cost of equipment or Rs. 800/- whichever is less","State governemnt will provide A subsidy of 50% on the cost of equipment or Rs. 800/- whichever is less for the manually operated Plant Protection Equipment scheme","The fund amount for the manually operated Plant Protection Equipment scheme is A subsidy of 50% on the cost of equipment or Rs. 800/- whichever is less"]
+    },
+    {
+      "tag":"public sector /manually operated Plant Protection Equipment/application process",
+      "patterns":["How to apply for the manually operated Plant Protection Equipment scheme","manually operated Plant Protection Equipment scheme application process","manually operated Plant Protection Equipment scheme application form","scheme no 6817 application process","where to apply the manually operated Plant Protection Equipment scheme","where to apply the scheme no 6817","manually operated Plant Protection Equipment applying process","were to apply the manually operated Plant Protection Equipment scheme","how to apply the scheme no 6817"],
+      "responses":["Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level"]
+    },
+    {
+      "tag":"public sector /Certified seeds - Oil Seeds/6818",
+      "patterns":["scheme no 6818","Certified seeds - Oil Seeds related scheme","state associate Certified seeds - Oil Seeds related scheme","Certified seeds - Oil Seeds related scheme","Certified seeds - Oil Seeds"],
+      "responses":["Title / Name : Distribution of Certified seeds - Oil Seeds, Associated Scheme : 6818,  Sponsored By:  State,Funding Pattern : 50% of the cost of seed or Rs. 1200/-per quintal whichever is less,  How To Avail : Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level,  Description : Those farmers who produce and supply Foundation and Certified Class seeds to the Department are eligible to avail of the benefit"]  
+    },
+    {
+      "tag":"public sector /Certified seeds - Oil Seeds/fund amount",
+      "patterns":["scheme no 6818 fund amount","Certified seeds - Oil Seeds related scheme fund amount","state associate Certified seeds - Oil Seeds related scheme fund amount","Certified seeds - Oil Seeds scheme related benfit amount"],
+      "responses":["Certified seeds - Oil Seeds fund amount is 50% of the cost of seed or Rs. 1200/-per quintal whichever is less","State governemnt will provide 50% of the cost of seed or Rs. 1200/-per quintal whichever is less for the Certified seeds - Oil Seeds scheme","The fund amount for the Certified seeds - Oil Seeds scheme is 50% of the cost of seed or Rs. 1200/-per quintal whichever is less"]
+    },
+    {
+      "tag":"public sector /Certified seeds - Oil Seeds/application process",
+      "patterns":["How to apply for the Certified seeds - Oil Seeds scheme","Certified seeds - Oil Seeds scheme application process","Certified seeds - Oil Seeds scheme application form","scheme no 6818 application process","where to apply the Certified seeds - Oil Seeds scheme","where to apply the scheme no 6818","Certified seeds - Oil Seeds applying process","were to apply the Certified seeds - Oil Seeds scheme","how to apply the scheme no 6818"],
+      "responses":["Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level"]
+    },
+    {
+      "tag":"public sector /Farm Production System and micro enterprises /19611",
+      "patterns":["scheme no 19611","Farm Production System and micro enterprises related scheme","state associate Farm Production System and micro enterprises related scheme","Farm Production System and micro enterprises related scheme","Farm Production System and micro enterprises"],
+      "responses":["Title / Name : Farm Production System and micro enterprises - Sponsored By State Govt,Associated Scheme : 19611, Sponsored By : State,Funding Pattern : Subsidy :1560/-, How To Avail : 1)Chairman / District Collector, 2)Project Officer /Joint Director of Agriculture , DWDA, (PIA) at District level. 1)Chief Executive Officer, State Level Nodal Agency, Chennai-32 (at State level), Description : Demonstration for popularizing new crops/ varieties, and new technologies in Agriculture and allied sectors. Diversification of production systems like Dryland Horticulture, Agro Forestry, Household production system,Adoption of proven technology, activities like INM, IPM, Fodder development, Organic farming, Multiple cropping, Improved inter cropping seed village concept, Fisheries development in village ponds, farm ponds and tanks, Sericulture, back yard poultry,Livestock management and other micro enterprises etc.are carried out under this component."]
+    },
+    {
+      "tag":"public sector /Farm Production System and micro enterprises/fund amount",
+      "patterns":["scheme no 19611 fund amount","Farm Production System and micro enterprises related scheme fund amount","state associate Farm Production System and micro enterprises related scheme fund amount","Farm Production System and micro enterprises scheme related benfit amount"],
+      "responses":["Farm Production System and micro enterprises fund amount is Subsidy :1560/-","State governemnt will provide Subsidy :1560/- for the Farm Production System and micro enterprises scheme","The fund amount for the Farm Production System and micro enterprises scheme is Subsidy :1560/-"]
+    },
+    {
+      "tag":"public sector /Farm Production System and micro enterprises /application process",
+      "patterns":["How to apply for the Farm Production System and micro enterprises scheme","Farm Production System and micro enterprises scheme application process","Farm Production System and micro enterprises scheme application form","scheme no 19611 application process","where to apply the Farm Production System and micro enterprises scheme","where to apply the scheme no 19611","Farm Production System and micro enterprises applying process","were to apply the Farm Production System and micro enterprises scheme","how to apply the scheme no 19611"],
+      "responses":["Chairman / District Collector, Project Officer /Joint Director of Agriculture , DWDA, (PIA) at District level. Chief Executive Officer, State Level Nodal Agency, Chennai-32 (at State level)"]
+    },
+    {
+      "tag":"public sector /Farm Mechanization /19612",
+      "patterns":["scheme no 19612","Farm Mechanization related scheme","state associate Farm Mechanization related scheme","Farm Mechanization related scheme","Farm Mechanization"],
+      "responses":["Title / Name : Farm Mechanization - Sponsored By State Govt,Associated Scheme : 19612, Sponsored By : State,Funding Pattern : Subsidy : 50% of the cost of the equipment subject to a maximum of Rs. 1.00 lakh, How To Avail : 1)Chairman / District Collector, 2)Project Officer /Joint Director of Agriculture , DWDA, (PIA) at District level. 1)Chief Executive Officer, State Level Nodal Agency, Chennai-32 (at State level), Description : The scheme is implemented for the benefit of small and marginal farmers. The subsidy is provided for the purchase of farm machinery and implements like Tractors, Power tillers, Rotavators, Seed drills, Planters, Sprayers, Dusters, Harvesters, Threshers, Chaff cutters, etc. The subsidy is provided at 50% of the cost of the equipment subject to a maximum of Rs. 1.00 lakh."]
+    },
+    {
+      "tag":"public sector /Farm Mechanization/fund amount",
+      "patterns":["scheme no 19612 fund amount","Farm Mechanization related scheme fund amount","state associate Farm Mechanization related scheme fund amount","Farm Mechanization scheme related benfit amount"],
+      "responses":["Farm Mechanization fund amount is Subsidy : 50% of the cost of the equipment subject to a maximum of Rs. 1.00 lakh","State governemnt will provide Subsidy : 50% of the cost of the equipment subject to a maximum of Rs. 1.00 lakh for the Farm Mechanization scheme","The fund amount for the Farm Mechanization scheme is Subsidy : 50% of the cost of the equipment subject to a maximum of Rs. 1.00 lakh"]
+    },
+    {
+      "tag":"public sector /Farm Mechanization/application process",
+      "patterns":["How to apply for the Farm Mechanization scheme","Farm Mechanization scheme application process","Farm Mechanization scheme application form","scheme no 19612 application process","where to apply the Farm Mechanization scheme","where to apply the scheme no 19612","Farm Mechanization applying process","were to apply the Farm Mechanization scheme","how to apply the scheme no 19612"],
+      "responses":["Chairman / District Collector, Project Officer /Joint Director of Agriculture , DWDA, (PIA) at District level. Chief Executive Officer, State Level Nodal Agency, Chennai-32 (at State level)"]
+    },
+
+
+    {
+      "tag":"public sector / Handloom weavers / Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks",
+      "patterns":["what are the scheme for integrated textile parks","scheme for integrated textile parks","SITP schemes","Handloon weavers scheme","Handloom weavers scheme for integrated textile parks","Handloom weavers scheme for setting up of Integrated Textile Parks","textile related scheme","textile related scheme for Handloom weavers","textile related scheme for Handloom weavers for setting up of Integrated Textile Parks","textile related scheme for Handloom weavers for integrated textile parks","textile related scheme for Handloom weavers for setting up of Integrated Textile Parks"],
+      "responses":["Title / Name : Handlooms and Textiles Department - Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks, Sponsored By : State, Funding Pattern : Under the Scheme for setting up of Integrated Textile Parks, the Government of India provides Grant or equity limited to 40% of the project cost subject to a ceiling of Rs.40 crore for the textile projects. However, the combined equity stake of Government of India / State Government / State Industrial Development Corporation, if any, should not exceed 49%. How To Avail : Director of Welfare Schemes Of Handlooms and Textiles Department, Description : Under the Scheme for setting up of Integrated Textile Parks, the Government of India provides Grant or equity limited to 40% of the project cost subject to a ceiling of Rs.40 crore for the textile projects. However, the combined equity stake of Government of India / State Government / State Industrial Development Corporation, if any, should not exceed 49%."]
+    },
+    {
+      "tag":"public sector / Handloom weavers / Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks/fund amount",
+      "patterns":["scheme for integrated textile parks fund amount","SITP schemes fund amount","Handloon weavers scheme fund amount","Handloom weavers scheme for integrated textile parks fund amount","Handloom weavers scheme for setting up of Integrated Textile Parks fund amount","textile related scheme fund amount","textile related scheme for Handloom weavers fund amount","textile related scheme for Handloom weavers for setting up of Integrated Textile Parks fund amount","textile related scheme for Handloom weavers for integrated textile parks fund amount","textile related scheme for Handloom weavers for setting up of Integrated Textile Parks fund amount"],
+      "responses":["Under the Scheme for setting up of Integrated Textile Parks, the Government of India provides Grant or equity limited to 40% of the project cost subject to a ceiling of Rs.40 crore for the textile projects. However, the combined equity stake of Government of India / State Government / State Industrial Development Corporation, if any, should not exceed 49%."]
+    },
+    {
+      "tag":"public sector / Handloom weavers / Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks/application process",
+      "patterns":["How to apply for the scheme for integrated textile parks","How to apply for the SITP schemes","How to apply for the Handloon weavers scheme","How to apply for the Handloom weavers scheme for integrated textile parks","How to apply for the Handloom weavers scheme for setting up of Integrated Textile Parks","How to apply for the textile related scheme","How to apply for the textile related scheme for Handloom weavers","How to apply for the textile related scheme for Handloom weavers for setting up of Integrated Textile Parks","How to apply for the textile related scheme for Handloom weavers for integrated textile parks","How to apply for the textile related scheme for Handloom weavers for setting up of Integrated Textile Parks"],
+      "responses":["Director of Welfare Schemes Of Handlooms and Textiles Department"]
+    },
+    {
+      "tag":"public sector / Handloom weavers / Scheme for integrated textile parks(SITP) Under the Scheme for setting up of Integrated Textile Parks/eligibility",
+      "patterns":["scheme for integrated textile parks eligibility","SITP schemes eligibility","Handloon weavers scheme eligibility","Handloom weavers scheme for integrated textile parks eligibility","Handloom weavers scheme for setting up of Integrated Textile Parks eligibility","textile related scheme eligibility","textile related scheme for Handloom weavers eligibility","textile related scheme for Handloom weavers for setting up of Integrated Textile Parks eligibility","textile related scheme for Handloom weavers for integrated textile parks eligibility","textile related scheme for Handloom weavers for setting up of Integrated Textile Parks eligibility"],
+      "responses":["Under the Scheme for setting up of Integrated Textile Parks, the Government of India provides Grant or equity limited to 40% of the project cost subject to a ceiling of Rs.40 crore for the textile projects. However, the combined equity stake of Government of India / State Government / State Industrial Development Corporation, if any, should not exceed 49%."]  
+    },
+
+
+    {
+      "tag":"public sector / Government employees/ Health Insurance Scheme",
+      "patterns":["scheme for government empployees","government employees benefits","healthe insurance scheme for government employees","government employees health insurance scheme","government employees health insurance scheme details"],
+      "responses":["Title / Name : New Health Insurance Scheme, Sponsored By : State,Funding Pattern : 75% of the expenses or Rs.1.00 lakh whichever is less, Benefits Types : Health Insurance,How To Avail : Apply to the concerned Department,Description : Under this scheme a sum of Rs.10/- is recovered as subscription every month from the Government employee. Assistance to the tune of 75% of the expenses or Rs.1.00 lakh whichever is less is granted to those who apply for assistance with the documents relating to treatment taken for ailments approved under the scheme."]
+    },
+    {
+      "tag":"public sector / Government employees/ Health Insurance Scheme/fund amount",
+      "patterns":["scheme for government employees insurance fund amount","healthe insurance scheme for government employees fund amount","government employees health insurance scheme fund amount","government employees health insurance scheme details fund amount"],
+      "responses":["New Health Insurance Scheme fund amount is 75% of the expenses or Rs.1.00 lakh whichever is less","State governemnt will provide 75% of the expenses or Rs.1.00 lakh whichever is less for the New Health Insurance Scheme","The fund amount for the New Health Insurance Scheme is 75% of the expenses or Rs.1.00 lakh whichever is less"]
+    },
+    {
+      "tag":"public sector / Government employees/ Health Insurance Scheme/application process",
+      "patterns":["How to apply for the scheme for government employees","How to apply for the healthe insurance scheme for government employees","How to apply for the government employees health insurance scheme","How to apply for the government employees health insurance scheme details"],
+      "responses":["Apply to the concerned Department"]
+    },
+    {
+      "tag":"public sector / Government employees/ Health Insurance Scheme/eligibility",
+      "patterns":["scheme for government employees eligibility","healthe insurance scheme for government employees eligibility","government employees health insurance scheme eligibility","government employees health insurance scheme details eligibility"],
+      "responses":["Under this scheme a sum of Rs.10/- is recovered as subscription every month from the Government employee. Assistance to the tune of 75% of the expenses or Rs.1.00 lakh whichever is less is granted to those who apply for assistance with the documents relating to treatment taken for ailments approved under the scheme."]  
+    },
+
+
+    {
+      "tag":"public sector / Journalists/ Family Benefit Scheme",
+      "patterns":["scheme no 6792","journalists family benefit scheme","journalists family benefit scheme details","journalists family benefit scheme details","journalists family benefit scheme details"],
+      "responses":["Title / Name : Journalists Family Benefit Fund, Associated Scheme : 6792, Sponsored By : State, Funding Pattern : From Rs. 50,000 to Rs. 2 Lakhs. Benefits Types : Grants, How To Avail : Apply to Tamil Development, Religious Endowment & Information Department, Description : Journalists' Family Benefit Fund is given from the Chief Minister's Public Relief Fund to families of Journalists who have served in any of these capacities viz, editor, sub-editor, reporter, photographer, proof reader for 20 years and passed away while in service. "]
+    },
+    {
+      "tag":"public sector / Journalists/ Family Benefit Scheme/fund amount",
+      "patterns":["scheme no 6792 fund amount","journalists family benefit scheme fund amount","journalists family benefit scheme details fund amount","journalists family benefit scheme details fund amount"],
+      "responses":["Journalists Family Benefit Fund fund amount is From Rs. 50,000 to Rs. 2 Lakhs","State governemnt will provide From Rs. 50,000 to Rs. 2 Lakhs for the Journalists Family Benefit Fund","The fund amount for the Journalists Family Benefit Fund is From Rs. 50,000 to Rs. 2 Lakhs"]
+    },
+    {
+      "tag":"public sector / Journalists/ Family Benefit Scheme/application process",
+      "patterns":["How to apply for the scheme no 6792","How to apply for the journalists family benefit scheme","How to apply for the journalists family benefit scheme details","How to apply for the journalists family benefit scheme details"],
+      "responses":["Apply to Tamil Development, Religious Endowment & Information Department"]
+    },
+    {
+      "tag":"public sector / Journalists/ Family Benefit Scheme/eligibility",
+      "patterns":["scheme no 6792 eligibility","journalists family benefit scheme eligibility","journalists family benefit scheme details eligibility","journalists family benefit scheme details eligibility"],
+      "responses":["Journalists' Family Benefit Fund is given from the Chief Minister's Public Relief Fund to families of Journalists who have served in any of these capacities viz, editor, sub-editor, reporter, photographer, proof reader for 20 years and passed away while in service."]  
+    },
+    {
+      "tag":"public sector / Journalists/ Journalists Pension Scheme",
+      "patterns":["journalists pension scheme","journalists pension scheme details","government pension scheme for journalists","pension for journalists"],
+      "responses":["Title / Name : Journalists Pension, Sponsored By : State, Funding Pattern : Rs. 4000/-, Benefits Types : Pension, How To Avail : Apply to Tamil Development, Religious Endowment & Information Department, Description : The monthly pension of Rs.4000/- given to retired journalists who have served for 20 years and are in indigent circumstances,"]
+    },
+    {
+      "tag":"public sector / Journalists/ Journalists Pension Scheme/fund amount",
+      "patterns":["journalists pension scheme fund amount","journalists pension scheme details fund amount","government pension scheme for journalists fund amount","pension for journalists fund amount"],
+      "responses":["Journalists Pension fund amount is Rs. 4000/-","State governemnt will provide Rs. 4000/- for the Journalists Pension","The fund amount for the Journalists Pension is Rs. 4000/-"]
+    },
+    {
+      "tag":"public sector / Journalists/ Journalists Pension Scheme/application process",
+      "patterns":["How to apply for the journalists pension scheme","How to apply for the journalists pension scheme details","How to apply for the government pension scheme for journalists","How to apply for the pension for journalists"],
+      "responses":["Apply to Tamil Development, Religious Endowment & Information Department"]
+    },
+    {
+      "tag":"public sector / Journalists/ Journalists Pension Scheme/eligibility",
+      "patterns":["journalists pension scheme eligibility","journalists pension scheme details eligibility","government pension scheme for journalists eligibility","pension for journalists eligibility"],
+      "responses":["The monthly pension of Rs.4000/- given to retired journalists who have served for 20 years and are in indigent circumstances,"]
+    },
+    {
+      "tag":"public sector / Journalists/ Journalists Medical Fund",
+      "patterns":["scheme no 6799","journalists medical fund details","government medical fund for journalists","medical fund for journalists"],
+      "responses":["Title / Name : Journalists Medical Fund, Associated Scheme : 6799, Sponsored By : State, Funding Pattern : Up to Rs. 50,000/-, Benefits Types : Medical Assistance, Description : Financial assistance to Journalists for medical treatment is provided from the Chief Minister’s Public Relief Fund."]
+    },
+    {
+      "tag":"public sector / Journalists/ Journalists Medical Fund/fund amount",
+      "patterns":["scheme no 6799 fund amount","journalists medical fund fund amount","journalists medical fund details fund amount","government medical fund for journalists fund amount","medical fund for journalists fund amount"],
+      "responses":["Journalists Medical Fund fund amount is Up to Rs. 50,000/-","State governemnt will provide Up to Rs. 50,000/- for the Journalists Medical Fund","The fund amount for the Journalists Medical Fund is Up to Rs. 50,000/-"]
+    },
+    {
+      "tag":"public sector / Journalists/ Journalists Medical Fund/application process",
+      "patterns":["How to apply for the journalists medical fund","How to apply for the journalists medical fund details","How to apply for the government medical fund for journalists","How to apply for the medical fund for journalists"],
+      "responses":["Financial assistance to Journalists for medical treatment is provided from the Chief Minister’s Public Relief Fund."]
+    },
+
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate/ Generator Set",
+      "patterns":["generator set scheme","generator set scheme details","generator set scheme for industries","generator set scheme for industries and commerce commissionerate"],
+      "responses":["Title / Name : Application for sanction of subsidy for the purchase of Generator Set, Sponsored By : State, Funding Pattern:25%, subject to a maximum of Rs.1.50 lakhs,Benefits Types : Subsidy, How To Avail: Apply to District Industries Centre, Description: Generator Subsidy at 25% of the cost of generator up to 125 KVA capacity, subject to a maximum of Rs.1.50 lakhs would be eligible to micro, small and medium manufacturing enterprises set up anywhere in the State."]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate/ Generator Set/fund amount",
+      "patterns":["generator set scheme fund amount","generator set scheme details fund amount","generator set scheme for industries fund amount","generator set scheme for industries and commerce commissionerate fund amount"],
+      "responses":["Generator Subsidy at 25% of the cost of generator up to 125 KVA capacity, subject to a maximum of Rs.1.50 lakhs would be eligible to micro, small and medium manufacturing enterprises set up anywhere in the State."]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate/ Generator Set/application process",
+      "patterns":["How to apply for the generator set scheme","How to apply for the generator set scheme details","How to apply for the generator set scheme for industries","How to apply for the generator set scheme for industries and commerce commissionerate"],
+      "responses":["Apply to District Industries Centre"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate/ Generator Set/eligibility",
+      "patterns":["generator set scheme eligibility","generator set scheme details eligibility","generator set scheme for industries eligibility","generator set scheme for industries and commerce commissionerate eligibility"],
+      "responses":["Generator Subsidy at 25% of the cost of generator up to 125 KVA capacity, subject to a maximum of Rs.1.50 lakhs would be eligible to micro, small and medium manufacturing enterprises set up anywhere in the State."]  
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate/ Energy Conservation",
+      "patterns":["energy conservation scheme","energy conservation scheme details","energy conservation scheme for industries","energy conservation scheme for industries and commerce commissionerate"],
+      "responses":["Title / Name : Energy Conservation, Sponsored By : State, Funding Pattern:25%, subject to a maximum of Rs.1.50 lakhs,Benefits Types : Subsidy, How To Avail: Apply to District Industries Centre, Description: Energy Conservation Subsidy at 25% of the cost of energy conservation equipment subject to a maximum of Rs.1.50 lakhs would be eligible to micro, small and medium manufacturing enterprises set up anywhere in the State."]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate/ Energy Conservation/fund amount",
+      "patterns":["energy conservation scheme fund amount","energy conservation scheme details fund amount","energy conservation scheme for industries fund amount","energy conservation scheme for industries and commerce commissionerate fund amount"],
+      "responses":["Energy Conservation Subsidy at 25% of the cost of energy conservation equipment subject to a maximum of Rs.1.50 lakhs would be eligible to micro, small and medium manufacturing enterprises set up anywhere in the State."]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate/ Energy Conservation/application process",
+      "patterns":["How to apply for the energy conservation scheme","How to apply for the energy conservation scheme details","How to apply for the energy conservation scheme for industries","How to apply for the energy conservation scheme for industries and commerce commissionerate"],
+      "responses":["Apply to District Industries Centre"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate/ Energy Conservation/eligibility",
+      "patterns":["energy conservation scheme eligibility","energy conservation scheme details eligibility","energy conservation scheme for industries eligibility","energy conservation scheme for industries and commerce commissionerate eligibility"],
+      "responses":["Energy Conservation Subsidy at 25% of the cost of energy conservation equipment subject to a maximum of Rs.1.50 lakhs would be eligible to micro, small and medium manufacturing enterprises set up anywhere in the State."]  
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / SIPCOT Industrial Park",
+      "patterns":["SIPCOT industrial park scheme","what are the scheme are aviable for SIPCOT","schemes related to SIPCOT industrial parks","SIPCOT industrial park related schemes","SIPCOT industrial park related schemes details"],
+      "responses":["Title / Name : Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates, Sponsored By : State, Funding Pattern : Quantum of incentives 20% of the area, Benefits Types : Incentives, How To Avail : To apply to SIPCOT, Description : All new / expansion schemes of SIPCOT Industrial Estates"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / SIPCOT Industrial Park/fund amount",
+      "patterns":["SIPCOT industrial park scheme fund amount","what are the scheme are aviable for SIPCOT fund amount","schemes related to SIPCOT industrial parks fund amount","SIPCOT industrial park related schemes fund amount","SIPCOT industrial park related schemes details fund amount"],
+      "responses":["Quantum of incentives 20% of the area"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / SIPCOT Industrial Park/application process",
+      "patterns":["How to apply for the SIPCOT industrial park scheme","How to apply for the SIPCOT","How to apply for the schemes related to SIPCOT industrial parks","How to apply for the SIPCOT industrial park related schemes","How to apply for the SIPCOT industrial park related schemes details"],
+      "responses":["To apply to SIPCOT"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / SIPCOT Industrial Park/Description",
+      "patterns":["SIPCOT industrial park scheme Description","what are the scheme are aviable for SIPCOT Description","schemes related to SIPCOT industrial parks Description","SIPCOT industrial park related schemes Description","SIPCOT industrial park related schemes details Description"],
+      "responses":["All new / expansion schemes of SIPCOT Industrial Estates"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / TANSIDCO Industrial estates",
+      "patterns":["TANSIDCO industrial estates scheme","what are the scheme are aviable for TANSIDCO","schemes related to TANSIDCO industrial estates","TANSIDCO industrial estates related schemes","TANSIDCO industrial estates related schemes details"],
+      "responses":["Title / Name : Reservation for Micro Enterprises in TANSIDCO Industrial Estates,Sponsored By : State, Funding Pattern : Quantum of incentives-30% of the area, Benefits Types : Incentives, How To Avail : To apply to SIDCO, Description : All TANSIDCO Industrial Estates"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / TANSIDCO Industrial estates/application process",
+      "patterns":["How to apply for the TANSIDCO industrial park scheme","How to apply for the TANSIDCO","How to apply for the schemes related to TANSIDCO industrial parks","How to apply for the TANSIDCO industrial park related schemes","How to apply for the TANSIDCO industrial park related schemes details"],
+      "responses":["To apply to SIDCO"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / TANSIDCO Industrial estates/fund process",
+      "patterns":["TANSIDCO industrial estates scheme fund amount","what are the scheme are aviable for TANSIDCO fund amount","schemes related to TANSIDCO industrial estates fund amount","TANSIDCO industrial estates related schemes fund amount","TANSIDCO industrial estates related schemes details fund amount"],
+      "responses":["TANSIDCO Industrial Estates fund amount is Quantum of incentives-30% of the area"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / Assessed value Added Tax",
+      "patterns":["scheme no 19647","scheme related to assessed value added tax","assessed value added tax scheme","scheme avialable for assessed value added tax"],
+      "responses":["Title / Name : Subsidy on the assessed Value Added Tax (VAT), Associated Scheme : 19647, Sponsored By : State, Funding Pattern : Assessed Value Added Tax (VAT) for the first six years from the date of commencement of production, Benefits Types : Subsidy, How To Avail : 1. For issue of an Eligibility Certificate within one year from the date of commencement of production 2. For submission of VAT claims VAT reimbursement claims should be submitted within one month after completion of each quarter.Description : Anywhere in the state"]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / Assessed value Added Tax/ application",
+      "patterns":["how to apply for the Assessed value added tax","how to apply the scheme related to Assessed value added tax"],
+      "responses":["1. For issue of an Eligibility Certificate within one year from the date of commencement of production 2. For submission of VAT claims VAT reimbursement claims should be submitted within one month after completion of each quarter."]
+    },
+    {
+      "tag":"Industry/ Industries and Commerce Commissionerate / Assessed value Added Tax/fund amount",
+      "patterns":["scheme no 19647 fund amount","scheme related to assessed value added tax fund amount","assessed value added tax scheme fund amount","scheme avialable for assessed value added tax fund amount"],
+      "responses":["Assessed Value Added Tax (VAT) for the first six years from the date of commencement of production"]
+    },
+    {
+      "tag":"Industry/ state capital subsidy",  
+      "patterns":["state capital subsidy scheme","state capital subsidy scheme details","state capital subsidy scheme for industries","state capital subsidy scheme for industries and commerce commissionerate"],
+      "responses":["Title/Name: Application for State Capital Subsidy,Sponsored By :State,Funding Pattern : 15%, Benefits Types: Subsidy,How To Avail: Apply to District Industries Centre or Regional Joint Director,Chennai  Description : 15 % capital subsidy on the value of eligible plant and machinery subject to a maximum of Rs.3.75 lakhs."]
+    },
+    {
+      "tag":"Industry/ state capital subsidy/fund amount",
+      "patterns":["state capital subsidy scheme fund amount","state capital subsidy scheme details fund amount","state capital subsidy scheme for industries fund amount","state capital subsidy scheme for industries and commerce commissionerate fund amount"],
+      "responses":["15 % capital subsidy on the value of eligible plant and machinery subject to a maximum of Rs.3.75 lakhs."]  
+    },
+    {
+      "tag":"Industry/ state capital subsidy/application process",
+      "patterns":["How to apply for the state capital subsidy scheme","How to apply for the state capital subsidy","How to apply for the state capital subsidy scheme for industries","How to apply for the state capital subsidy scheme for industries and commerce commissionerate"],
+      "responses":["Apply to District Industries Centre or Regional Joint Director,Chennai"]
+    },
+    {
+      "tag":"Industry/ state capital subsidy/Description",
+      "patterns":["state capital subsidy scheme Description","state capital subsidy scheme details Description","state capital subsidy scheme for industries Description","state capital subsidy scheme for industries and commerce commissionerate Description"],
+      "responses":["15 % capital subsidy on the value of eligible plant and machinery subject to a maximum of Rs.3.75 lakhs."]
+    },
+
+
+    {
+      "tag":"Co-operation bank/ loan for durables products",
+      "patterns":["loan for durables products","loan for durables products details","loan for durables products from co-operation bank","loan for durables products from co-operation bank details"],
+      "responses":["Title / Name : District central Cooperative Banks and through its branches - For Consumer durables T.V., Fridge and two wheelers loan. Sponsored By : State, Funding Pattern : Purpose for which loan can be obtained : Consumer durables T.V., Fridge and two wheelers loan. Maximum amount of loan : 75% of the cost (no. ceiling Rate of interest (Subject to change): 14%, Benefits Types : Grants, How To Avail : General/manager/ Special Officer, Description : Purpose for which loan can be obtained : Consumer durables T.V., Fridge and two wheelers loan. Maximum amount of loan : 75% of the cost (no. ceiling Rate of interest (Subject to change): 14%,"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for durables products/fund amount",
+      "patterns":["loan for durables products fund amount","loan for durables products details fund amount","loan for durables products from co-operation bank fund amount","loan for durables products from co-operation bank details fund amount"],
+      "responses":["Purpose for which loan can be obtained : Consumer durables T.V., Fridge and two wheelers loan. Maximum amount of loan : 75% of the cost (no. ceiling Rate of interest (Subject to change): 14%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for durables products/application process",
+      "patterns":["how to apply for loan for durables products","how to apply for loan for durables products details","how to apply for loan for durables products from co-operation bank","how to apply for loan for durables products from co-operation bank details"],
+      "responses":["neral/manager/ Special Officer from the District central Cooperative Banks and through its branches"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for durables products/eligibility",
+      "patterns":["loan for durables products eligibility","loan for durables products details eligibility","loan for durables products from co-operation bank eligibility","loan for durables products from co-operation bank details eligibility"],
+      "responses":["Purpose for which loan can be obtained : Consumer durables T.V., Fridge and two wheelers loan. Maximum amount of loan : 75% of the cost (no. ceiling Rate of interest (Subject to change): 14%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for durables products/interest rate",
+      "patterns":["loan for durables products interest rate","loan for durables products details interest rate","loan for durables products from co-operation bank interest rate","loan for durables products from co-operation bank details interest rate"],
+      "responses":["Rate of interest (Subject to change): 14%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for durables products/Description",
+      "patterns":["loan for durables products Description","loan for durables products details Description","loan for durables products from co-operation bank Description","loan for durables products from co-operation bank details Description"],
+      "responses":["Purpose for which loan can be obtained : Consumer durables T.V., Fridge and two wheelers loan. Maximum amount of loan : 75% of the cost (no. ceiling Rate of interest (Subject to change): 14%"]
+    },
+    {
+      "tag":"Co-operation bank/ SRTO loan",
+      "patterns":["how to apply the SRTO loan in Co-operation bank","how to apply the SRTO loan","SRTO loan details","SRTO loan from co-operation bank"],
+      "responses":["Title / Name : District central Cooperative Banks and through its branches - For Small Road Transport Operators loan (SRTO loan), Sponsored By : State, Funding Pattern : Purpose for which loan can be obtained : Small Road Transport Operators loan (SRTO loan) Maximum amount of loan : 10,00,000 Rate of interest (Subject to change): 13%,Benefits Types : Grants, How To Avail :General/manager/ Special Officer, Description : Purpose for which loan can be obtained : Small Road Transport Operators loan (SRTO loan) Maximum amount of loan : 10,00,000 Rate of interest(Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ SRTO loan/fund pattern",
+      "patterns":["SRTO loan fund amount","SRTO loan details fund amount","SRTO loan from co-operation bank fund amount"],
+      "responses":["Purpose for which loan can be obtained : Small Road Transport Operators loan (SRTO loan) Maximum amount of loan : 10,00,000 Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ SRTO loan/application process",
+      "patterns":["how to apply the SRTO loan in Co-operation bank","how to apply the SRTO loan","SRTO loan details","SRTO loan from co-operation bank"],
+      "responses":["General/manager/ Special Officer from the District central Cooperative Banks and through its branches"]
+    },
+    {
+      "tag":"Co-operation bank/ SRTO loan/interest rate",
+      "patterns":["SRTO loan interest rate","SRTO loan details interest rate","SRTO loan from co-operation bank interest rate"],
+      "responses":["Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ SRTO loan/Description",
+      "patterns":["SRTO loan Description","SRTO loan details Description","SRTO loan from co-operation bank Description"],
+      "responses":["Purpose for which loan can be obtained : Small Road Transport Operators loan (SRTO loan) Maximum amount of loan : 10,00,000 Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for agriculture",
+      "patterns":["how to apply the agriculture loan in Co-operation bank","how to apply the agriculture loan","agriculture loan details","agriculture loan from co-operation bank"],
+      "responses":["Title / Name : District central Cooperative Banks and through its branches - For Agriculture loan, Sponsored By : State, Funding Pattern : Purpose for which loan can be obtained : Agriculture loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%,Benefits Types : Grants, How To Avail :General/manager/ Special Officer, Description : Purpose for which loan can be obtained : Agriculture loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for agriculture/fund pattern",
+      "patterns":["agriculture loan fund amount","agriculture loan details fund amount","agriculture loan from co-operation bank fund amount"],
+      "responses":["Purpose for which loan can be obtained : Agriculture loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for agriculture/application process",
+      "patterns":["how to apply the agriculture loan in Co-operation bank","how to apply the agriculture loan","agriculture loan details","agriculture loan from co-operation bank"],
+      "responses":["General/manager/ Special Officer from the District central Cooperative Banks and through its branches"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for agriculture/interest rate",
+      "patterns":["agriculture loan interest rate","agriculture loan details interest rate","agriculture loan from co-operation bank interest rate"],
+      "responses":["Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ Jewel loan",
+      "patterns":["how to apply the Jewel loan in Co-operation bank","Jewel loan is aviable in Co-operation bank","Jewel loan details","Jewel loan from co-operation bank"],
+      "responses":["Title / Name : District central Cooperative Banks and through its branches - For Jewel loan, Sponsored By : State,Funding Pattern : Purpose for which loan can be obtained : Jewel loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 12%, Benefits Types : Grants, How To Avail : General/manager/ Special Officer, Description : Purpose for which loan can be obtained : Jewel loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 12%"]
+    },
+    {
+      "tag":"Co-operation bank/ Jewel loan/fund pattern",
+      "patterns":["Jewel loan fund amount","Jewel loan details fund amount","Jewel loan from co-operation bank fund amount"],
+      "responses":["Purpose for which loan can be obtained : Jewel loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 12%"]
+    },
+    {
+      "tag":"Co-operation bank/ Jewel loan/application process",
+      "patterns":["how to apply the Jewel loan in Co-operation bank","what is process to apply the Jewel loan","Jewel loan details","Jewel loan from co-operation bank"],
+      "responses":["General/manager/ Special Officer from the District central Cooperative Banks and through its branches"]
+    },
+    {
+      "tag":"Co-operation bank/ Jewel loan/interest rate",
+      "patterns":["Jewel loan interest rate","Jewel loan details interest rate","Jewel loan from co-operation bank interest rate"],
+      "responses":["Rate of interest (Subject to change): 12%"]
+    },
+    {
+      "tag":"Co-operation bank/ Jewel loan/Description",
+      "patterns":["Jewel loan Description","Jewel loan details Description","Jewel loan from co-operation bank Description"],
+      "responses":["Purpose for which loan can be obtained : Jewel loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 12%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for education",
+      "patterns":["how to apply the education loan in Co-operation bank","education loan is aviable in Co-operation bank","education loan details","education loan from co-operation bank"],
+      "responses":["Title / Name : District central Cooperative Banks and through its branches - For Education loan, Sponsored By : State, Funding Pattern : Purpose for which loan can be obtained : Education loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%, Benefits Types : Grants, How To Avail : General/manager/ Special Officer, Description : Purpose for which loan can be obtained : Education loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for education/fund pattern",
+      "patterns":["education loan fund amount","education loan details fund amount","education loan from co-operation bank fund amount"],
+      "responses":["Purpose for which loan can be obtained : Education loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for education/application process",
+      "patterns":["how to apply the education loan in Co-operation bank","what is process to apply the education loan","education loan details","education loan from co-operation bank"],
+      "responses":["General/manager/ Special Officer from the District central Cooperative Banks and through its branches"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for education/interest rate",
+      "patterns":["education loan interest rate","education loan details interest rate","education loan from co-operation bank interest rate"],
+      "responses":["Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for education/Description",
+      "patterns":["education loan Description","education loan details Description","education loan from co-operation bank Description"],
+      "responses":["Purpose for which loan can be obtained : Education loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for housing",
+      "patterns":["how to apply the housing loan in Co-operation bank","housing loan is aviable in Co-operation bank","housing loan details","housing loan from co-operation bank"],
+      "responses":["Title / Name : District central Cooperative Banks and through its branches - For Housing loan, Sponsored By : State, Funding Pattern : Purpose for which loan can be obtained : Housing loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%, Benefits Types : Grants, How To Avail : General/manager/ Special Officer, Description : Purpose for which loan can be obtained : Housing loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ loan for housing/fund pattern",
+      "patterns":["housing loan fund amount","housing loan details fund amount","housing loan from co-operation bank fund amount"],
+      "responses":["Purpose for which loan can be obtained : Housing loan Maximum amount of loan : 1,00,000 Rate of interest (Subject to change): 13%"]
+    },
+    {
+      "tag":"Co-operation bank/ Women Entrepreneur loan",
+      "patterns":["how to apply the women entrepreneur loan in Co-operation","any loan which are aviable for women entrepreneur in Co-operation bank"],
+      "responses":["Title / Name : District central Cooperative Banks and through its branches-for women entrepreneur loan, Sponsored By : State, Funding Pattern : Purpose for which loan can be obtained: Women entrepreneur loan Maximum amount of loan : 5,00,000 Rate of interest (Subject to change): 12%, Benefits Types : Grants, How To Avail : General/manager/ Special Officer, Description : Purpose for which loan can be obtained: Women Entreneous maximum amount of loan : 5,00,000 Rate of interest (Subject to change): 12%"]
+    },
+    {
+      "tag":"Co-operation bank/ Women Entrepreneur loan/fund pattern",
+      "patterns":["women entrepreneur loan fund amount","what are the fund pattern for women entrepreneur loan"],
+      "responses":["Purpose for which loan can be obtained : Women Entrepreneurs Maximum amount of loan : Up to Rs.5,00,000 Rate of interest (Subject to change): 12%"]
+    },
+
+
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Hostels - Special guides",
+      "patterns":["hostels special guides for tribal welfare dept","hostels special guides details","hostels special guides for adi dravidar and tribal welfare department","hostels special guides for adi dravidar and tribal welfare department details"],
+      "responses":["Title / Name : Adi Dravidar and Tribal Welfare Department -Hostels - Special Guides,Sponsored By : State, Benefits Types : Hostel Facilities, How To Avail : Warden/ Matron of the hostel, Description : All Boys/ Girls Boarders studying up to XII Standard"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Hostels - Special guides/avial",
+      "patterns":["how to apply for adi draviar or tribal hostel","how to apply the government providing hostel"],
+      "responses":[" Warden/ Matron of the hostel"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Hostels - Special guides/description",
+      "patterns":["hostels special guides for tribal welfare dept Description","hostels special guides details Description","hostels special guides for adi dravidar and tribal welfare department Description","hostels special guides for adi dravidar and tribal welfare department details Description"],
+      "responses":[" All Boys/ Girls Boarders studying up to XII Standard"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Award of Prizes",
+      "patterns":["award of prizes for tribal welfare","government presenting award for tribal people","award of prizes for adi dravidar and tribal welfare department","award of prizes for adi dravidar and tribal welfare department details"],
+      "responses":["Title / Name : Adi Dravidar and Tribal Welfare Department -Incentive / Award of Prizes - For each subjects (c) plus2 Examination Rs.2000/- (d)10th Std Examination Rs.1000/-, Benefits Types : Incentives, How To Avail : Director of Adi Dravidar welfare, Chennai-5 Through the District Adi Dravidar and Tribal welfare officer, Description : One Student each from Adi Dravidar / Tribal/Adi Dravider converted to Christianity for each subject"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Award of Prizes/avail",
+      "patterns":["how to apply the award for tribal welfare","how to apply the award for tribal people","how to apply the award for adi dravidar and tribal welfare","how to apply the award for adi dravidar and tribal welfare department details"],
+      "responses":["Director of Adi Dravidar welfare, Chennai-5 Through the District Adi Dravidar and Tribal welfare officer"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Award of Prizes/description",
+      "patterns":["award of prizes for tribal welfare Description","government presenting award for tribal people Description","award of prizes for adi dravidar and tribal welfare department Description","award of prizes for adi dravidar and tribal welfare department details Description"],
+      "responses":["One Student each from Adi Dravidar / Tribal/Adi Dravider converted to Christianity for each subject"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Scholarship",
+      "patterns":["what are the scholarship are avialable for adi dravidar and tribal welfare","Can you explain the scholarship for adi dravidar and tribal welfare"],
+      "responses":["Title / Name : Adi Dravidar and Tribal Welfare Department -Scholarship - Public Examination fee for 10th and 12th Std., Benefits Types : Education Benefits, How To Avail : Headmaster of the school, Description : Public Examination fee for 10th and 12th Std. These amounts will be reimbursed to the Directorate of Government Examinations directly by Govt.. All Adi Dravidar/Tribal / Adi Dravidar Converted to Christianity students are eligible with no income limit"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Scholarship/ avail",
+      "patterns":["how to apply the scholarship for tribal welfare","how to apply the scholarship for tribal people","how to apply the scholarship for adi dravidar and tribal welfare","how to apply the scholarship for adi dravidar and tribal welfare department details"],
+      "responses":["Headmaster of the school"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Scholarship/ description",
+      "patterns":["what are the scholarship are avialable for adi dravidar and tribal welfare Description","Can you explain the scholarship for adi dravidar and tribal welfare Description"],
+      "responses":["Public Examination fee for 10th and 12th Std. These amounts will be reimbursed to the Directorate of Government Examinations directly by Govt.. All Adi Dravidar/Tribal / Adi Dravidar Converted to Christianity students are eligible with no income limit"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Education benefits",
+      "patterns":["what are the education benefits are avialable for adi dravidar and tribal welfare","Can you explain the education benefits for adi dravidar and tribal welfare"],  
+      "responses":["Title / Name : All India Service Examinations like I.A.S., I.P.S., I.R.S., etc., Benefits Types : Education Benefits, How To Avail : Director, Anna Institute of Management, Chennai-28, Description : Pre Examination training centre for All India Service Examinations like I.A.S., I.P.S., I.R.S., etc. boarding, lodging, coaching etc. are provided free of cost. Parental income should below Rs.1.00 lakh per annum. Mess Charges Rs.1200 per month should be paid by the students whose parental income is above Rs.1 lakh per annum."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Education benefits/ avail",
+      "patterns":["how to apply the education benefits for tribal welfare","how to apply the education benefits for tribal people","how to apply the education benefits for adi dravidar and tribal welfare","how to apply the education benefits for adi dravidar and tribal welfare department details"],
+      "responses":["Director, Anna Institute of Management, Chennai-28"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Education benefits/ description",
+      "patterns":["what are the education benefits are avialable for adi dravidar and tribal welfare Description","Can you explain the education benefits for adi dravidar and tribal welfare Description"],
+      "responses":["Pre Examination training centre for All India Service Examinations like I.A.S., I.P.S., I.R.S., etc. boarding, lodging, coaching etc. are provided free of cost. Parental income should below Rs.1.00 lakh per annum. Mess Charges Rs.1200 per month should be paid by the students whose parental income is above Rs.1 lakh per annum."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ free Houses",
+      "patterns":["what are the free houses are avialable for adi dravidar and tribal welfare","Can you explain the free houses for adi dravidar and tribal welfare"],
+      "responses":["Title / Name : Adi Dravidar and Tribal Welfare Department -Free Houses, Benefits Types : Housing site, How To Avail : Commissioner / Panchayat Union / District Adi dravidar and Tribal Welfare Officer / Commissioner of Tribal Welfare concerned, Description : Construction of free houses for Tribals who are having free house site pittas. Free houses will be constructed."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ free Houses/ avail",
+      "patterns":["how to apply the adi dravidar and tribal welfare free houses","how to apply the free houses for tribal people","how to apply the free houses for adi dravidar and tribal welfare","how to apply the free houses for adi dravidar and tribal welfare department details"],
+      "responses":["Commissioner / Panchayat Union / District Adi dravidar and Tribal Welfare Officer / Commissioner of Tribal Welfare concerned"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ free Houses/ description",
+      "patterns":["what are the free houses are avialable for adi dravidar and tribal welfare Description","Can you explain the free houses for adi dravidar and tribal welfare Description"],
+      "responses":["Construction of free houses for Tribals who are having free house site pittas. Free houses will be constructed."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Award for bright student",
+      "patterns":["what are the award for bright student are avialable for adi dravidar and tribal welfare","Can you explain the award for bright student for adi dravidar and tribal welfare"],
+      "responses":["Title / Name : Awards to Bright Students, Benefits Types : Education Benefits, How To Avail : Director of Adi Dravidar Welfare , Chennai-5. through the Educational Institutions., Description : Awards to Bright Students - First two boys and two girls in each district from each community viz., Adi Dravidar/ Tribal / Adi Dravidar Converted to Christianity who have passed 10th std., Public Examinations and continue their studies are given a sum of Rs.800/- for the first year and Rs.960/- for the next 5 years. Should have secured first and second place in the 10th Std, in the district. Continue their studies. No income limits ."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Award for bright student/application",
+      "patterns":["how to apply the award for bright student for tribal welfare","how to apply the award for bright student for tribal people","how to apply the award for bright student for adi dravidar and tribal welfare","how to apply the award for bright student for adi dravidar and tribal welfare department details"],
+      "responses":["Director of Adi Dravidar Welfare , Chennai-5. through the Educational Institutions."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Award for bright student/description",
+      "patterns":["what are the award for bright student are avialable for adi dravidar and tribal welfare Description","Can you explain the award for bright student for adi dravidar and tribal welfare Description"],
+      "responses":["Awards to Bright Students - First two boys and two girls in each district from each community viz., Adi Dravidar/ Tribal / Adi Dravidar Converted to Christianity who have passed 10th std., Public Examinations and continue their studies are given a sum of Rs.800/- for the first year and Rs.960/- for the next 5 years. Should have secured first and second place in the 10th Std, in the district. Continue their studies. No income limits ."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Animal Husbandry",
+      "patterns":["what are the animal husbandry are avialable for adi dravidar and tribal welfare","Can you explain the animal husbandry for adi dravidar and tribal welfare"],
+      "responses":["Title / Name : Animal Husbandry, Benefits Types : Grants, How To Avail : DAD and TWO / Director, Animal Husbandry Dept. Veterinary Doctors in the Veterinary Hospital Livestock Inspectors concerned. Description : Animal Husbandry - Distribution of sheep Units, Milch animals, calves at 50percent to 75percent subsidised cost and provision of health cover to the animals, artificial insemination etc. Tribals are given preference."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Animal Husbandry/avail",
+      "patterns":["how to apply the animal husbandry for tribal welfare","how to apply the animal husbandry for tribal people","how to apply the animal husbandry for adi dravidar and tribal welfare","how to apply the animal husbandry for adi dravidar and tribal welfare department details"],
+      "responses":["DAD and TWO / Director, Animal Husbandry Dept. Veterinary Doctors in the Veterinary Hospital Livestock Inspectors concerned"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Animal Husbandry/description",
+      "patterns":["what are the animal husbandry are avialable for adi dravidar and tribal welfare Description","Can you explain the animal husbandry for adi dravidar and tribal welfare Description"],
+      "responses":["Animal Husbandry - Distribution of sheep Units, Milch animals, calves at 50percent to 75percent subsidised cost and provision of health cover to the animals, artificial insemination etc. Tribals are given preference."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Memorial Award",
+      "patterns":["what are the memorial award are avialable for adi dravidar and tribal welfare","Can you explain the memorial award for adi dravidar and tribal welfare"],  
+      "responses":["Title / Name : Annal Gandhi Memorial Award, Benefits Types : Education Benefits, How To Avail : CADW through educational institutions., Description : One boy and one girl belonging to Hindu Adi Dravidar community who secure first rank in each district in plus 2 Public Examinations. An award of Rs.2,000 is given in the first year and Rs.1,500 per annum for the succeeding five years."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Memorial Award/ avail",
+      "patterns":["how to apply the memorial award for tribal welfare","how to apply the memorial award for tribal people","how to apply the memorial award for adi dravidar and tribal welfare","how to apply the memorial award for adi dravidar and tribal welfare department details"],
+      "responses":["CADW through educational institutions."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Memorial Award/ description",
+      "patterns":["what are the memorial award are avialable for adi dravidar and tribal welfare Description","Can you explain the memorial award for adi dravidar and tribal welfare Description"],
+      "responses":["One boy and one girl belonging to Hindu Adi Dravidar community who secure first rank in each district in plus 2 Public Examinations. An award of Rs.2,000 is given in the first year and Rs.1,500 per annum for the succeeding five years."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Assistance for Funeral Rites",
+      "patterns":["what are the assistance for funeral rites are avialable for adi dravidar and tribal welfare","Can you explain the assistance for funeral rites for adi dravidar and tribal welfare"],
+      "responses":["Title / Name : Assistance for Funeral Rites, Benefits Types : Funeral Benefits, How To Avail : CADW through the District Adi Dravidar and Tribal Welfare Officer, Description : Assistance for Funeral Rites - Rs.1,000/- for each death of Adi Dravidar / Tribal / Adi Dravidar Converted to Christianity"]
+    },{
+      "tag":"Adi dravidar and tribal welfare department/ Assistance for Funeral Rites/ avail",
+      "patterns":["how to apply the assistance for funeral rites for tribal welfare","how to apply the assistance for funeral rites for tribal people","how to apply the assistance for funeral rites for adi dravidar and tribal welfare","how to apply the assistance for funeral rites for adi dravidar and tribal welfare department details"],
+      "responses":["CADW through the District Adi Dravidar and Tribal Welfare Officer"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Assistance for Funeral Rites/ description",
+      "patterns":["what are the assistance for funeral rites are avialable for adi dravidar and tribal welfare Description","Can you explain the assistance for funeral rites for adi dravidar and tribal welfare Description"],
+      "responses":["Assistance for Funeral Rites - Rs.1,000/- for each death of Adi Dravidar / Tribal / Adi Dravidar Converted to Christianity"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Assistance to Lawyers",
+      "patterns":["what are the assistance to lawyers are avialable for adi dravidar and tribal welfare","Can you explain the assistance to lawyers for adi dravidar and tribal welfare"],
+      "responses":["Title / Name : Assistance to Lawyers for Starting their Practice, Benefits Types : Incentives, How To Avail : District Adi dravidar and Tribal Welfare Officer/ Director ADW Chennai-5, Description : Adi Dravidar/ Tribal Lawyers will be eligible . Lawyers who registered their name within 5 years only eligible. Annual income of parent Rs. 1,00,000/-."]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Assistance to Lawyers/ avail",
+      "patterns":["how to apply the assistance to lawyers for tribal welfare","how to apply the assistance to lawyers for tribal people","how to apply the assistance to lawyers for adi dravidar and tribal welfare","how to apply the assistance to lawyers for adi dravidar and tribal welfare department details"],
+      "responses":["District Adi dravidar and Tribal Welfare Officer/ Director ADW Chennai-5"]
+    },
+    {
+      "tag":"Adi dravidar and tribal welfare department/ Assistance for Lawyers/ description",
+      "patterns":["what are the assistance to lawyers are avialable for adi dravidar and tribal welfare Description","Can you explain the assistance to lawyers for adi dravidar and tribal welfare Description"],
+      "responses":["Adi Dravidar/ Tribal Lawyers will be eligible . Lawyers who registered their name within 5 years only eligible. Annual income of parent Rs. 1,00,000/-."]
+    }
+  ]
+}
